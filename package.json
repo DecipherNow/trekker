@@ -1,0 +1,25 @@
+{
+  "name": "trekker",
+  "version": "0.1.0-dev",
+  "description": "A lambda function for quoting Star Trek.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "archiver": "^3.1.1",
+    "aws-sdk": "^2.534.0",
+    "tmp": "^0.1.0"
+  },
+  "scripts": {
+    "deploy": "node ./scripts/deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/deciphernow/trekker"
+  },
+  "keywords": [
+    "star",
+    "trek"
+  ],
+  "author": "engineering@deciphernow.com",
+  "license": "Apache-2.0"
+}
